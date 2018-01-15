@@ -15,7 +15,7 @@ def pig_latin(word):
 def countdown():
     today = date.today()
     april6 = date(2018, 4, 1)
-    str_to_show = "C2C24 Demo Python App \r\n Number of days to April 6:"
+    str_to_show = "Demo Python App \r\n Number of days to April 6:"
 
     original_word = input('Enter something to be converted into pig latin: ')
     piglatin_word = pig_latin(original_word)
