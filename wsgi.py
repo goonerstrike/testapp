@@ -26,8 +26,8 @@ def countdown():
         time_to_april6 = abs(april6 - today)
         days_to_april6 = time_to_april6.days
         str_to_show += str(days_to_april6)
-    return "This is a test served from {} to {}. {}. Pig latin version of Faith is {}".format(socket.gethostname(), request.remote_addr, str_to_show, piglatin_word)
-
+    # return "This is a test served from {} to {}. {}. Pig latin version of Faith is {}".format(socket.gethostname(), request.remote_addr, str_to_show, piglatin_word)
+    return "{}. Pig latin version of Faith is {}".format(str_to_show, piglatin_word)
 
 if __name__ == "__main__":
     # application.run(host='0.0.0.0')
