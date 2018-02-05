@@ -1,5 +1,5 @@
 from flask import Flask, request
-import socket
+#import socket
 from datetime import date
 
 application = Flask(__name__)
