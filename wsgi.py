@@ -25,7 +25,7 @@ def countdown():
         time_to_therandomdate = abs(therandomdate - today)
         days_to_therandomdate = time_to_therandomdate.days
         str_to_show += str(days_to_therandomdate)
-    return "{}.\r\n Pig latin version of Faith is {}".format(str_to_show, piglatin_word)
+    return "{}.\r\n Pig latin version of Mika is {}".format(str_to_show, piglatin_word)
 
 if __name__ == "__main__":
     # application.run(host='0.0.0.0')
