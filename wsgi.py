@@ -15,10 +15,10 @@ def pig_latin(word):
 def countdown():
     today = date.today()
     therandomdate = date(2018, 6, 19)
-    str_to_show = "Demo Python App.    Number of days to June 19:"
+    str_to_show = "Second version of this python App.    Number of days to June 19:"
     
     #original_word = input('Enter something to be converted into pig latin: ')
-    original_word = "Faith"
+    original_word = "Mika"
     piglatin_word = pig_latin(original_word)
 
     if therandomdate > today:
